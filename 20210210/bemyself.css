@@ -1,0 +1,114 @@
+.middle-section {
+    width:100%;
+    height:400px;
+    justify-content:space-between;
+    background-color:yellow;
+}
+.title-section{
+    width:50%;
+    height:400px;
+    
+    padding:20px;
+  float:left;
+  padding-top:90px;
+}
+.img-section{
+    width:50%;
+    height:400px;
+   
+    float:right;
+    padding:20px;
+    padding-top:90px;
+}
+.btn{
+    transition:4s ;
+}
+.btn:hover{
+    background-color:red;
+}
+.middle-title{
+    width:100%;
+    height:auto;
+   
+    padding:20px;
+}
+.middle-title::before{
+    width:5%;
+    height:6px;
+    background-color:#0007;
+    content:"";
+    position:absolute;
+    transform:translate(-40px,55px);
+    
+}
+.middle-title::after{
+    width:2%;
+    height:10px;
+    background-color:black;
+    content:"";
+    position:absolute;
+    transform:translate(-17px,-3px);
+    
+}
+.col-md-4 img{
+    width:80%;
+    height:400px;
+    margin:10px auto;
+}
+.banner{
+    width:100%;
+    height:400px;
+    background-image:url('https://img.freepik.com/free-photo/grunge-concrete-material-background-texture-wall-concept_53876-42916.jpg?size=626&ext=jpg&ga=GA1.2.1770620136.1611986963');
+    background-size:cover;
+    margin-top:30px;
+    display:flex;
+}
+.banner-title{
+    width:50%;
+    height:400px;
+    padding:20px;
+    padding-top:110px;
+    float:left;
+    
+}
+.banner-img{
+    width:50%;
+    height:400px;
+   
+    float:right;
+    padding:20px;
+  
+}
+.banner-img img{
+    width:400px;
+    height:400px;
+    position:absolute;
+    right:20%;
+}
+.footer{
+    width:100%;
+    height:300px;
+    background-color:#0008;
+    margin-top:50px;
+    display:flex;
+}
+.links{
+    width:100%;
+    height:300px;
+      text-decoration :none;
+      
+}
+.links img{
+    width:200px;
+    height:150px;
+    margin:50px 80px;
+}
+.links ul{
+    margin-top:30px;
+  
+}
+.links ul li{
+    width:50%;
+    height:80px;
+    list-style-type:none;
+}

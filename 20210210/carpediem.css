@@ -1,0 +1,39 @@
+@mixin icon-size {
+    font-size: 3rem;
+    margin-left: 15px;
+}
+
+.icon {
+    @include icon-size;
+    
+    color: red;
+}
+
+.navbar-nav {
+    margin-right: 50px;
+}
+
+.nav-item {
+    padding: 0 20px;
+}
+
+.carousel-item {
+    padding: 5% 15%;
+    height: 450px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+.card {
+    justify-content: center;
+}
+
+.card-img {
+    max-width: 300px;
+    min-width: 200px;
+    margin: auto;
+    display: block;
+}
