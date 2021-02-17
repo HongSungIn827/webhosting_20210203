@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        span
+        {
+            background: violet;
+        }
+        div
+        {
+            background: yellowgreen;
+        }
+        p{
+            background: wheat;
+        }
+        #box
+        {
+            display: inline-block;
+            width: 200px;
+            height: 200px;
+            background-color: turquoise;
+        }
+
+        p:nth-of-type(2)
+        {
+            /* 완전 사라지게 함 */
+            /* display: none; */
+
+            /* 해당 공간 내용만 투명하게 */
+            visibility: hidden;
+        }
+
+    </style>
+</head>
+<body>
+    <span>Rooney</span>
+    <div id="box">
+        <span>Seize the day!</span>
+    </div>
+    <div id="box2">
+        <span>Seize the day! Carpediem!</span>
+    </div>
+    <p>Seize the day</p>
+    <p>Seize the day! Keep it real</p>
+    <p>Seize the day! Keep it real! Carpediem!</p>
+
+</body>
+</html>
